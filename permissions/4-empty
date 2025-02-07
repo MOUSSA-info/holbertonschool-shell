@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -l 4-empty
+touch create_hello.sh

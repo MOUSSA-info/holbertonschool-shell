@@ -1,2 +1,2 @@
 #!/bin/bash
-sort -F '{print $1 ":" $6}' /etc/passwd  
+cat /etc/passwd  

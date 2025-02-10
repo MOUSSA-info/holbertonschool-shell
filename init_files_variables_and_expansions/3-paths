@@ -1,2 +1,2 @@
 #!/bin/bash
-count=$(echo "$PATH" | tr ':' '\n' | grep -v '^$' | wc -l)
+dir_count=$(echo "$PATH" | tr ':' '\n' | grep -v '^$' | sort -u | wc -l)
